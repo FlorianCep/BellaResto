@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bella Olonje - Contact</title>
+        <link rel="stylesheet" href="style.css">
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+
+
+    <body>
+        
+        <!-- HEADER -->
+        <header>
+
+            <div class="flex-container navbar" id="home">
+                <img src="..\img\logo.png" alt="Logo Bella Olonje">
+
+                <!-- NAV -->
+                <nav>
+                    <ul>
+                        <li class="home"><a href="..\index.html"> Home </a></li>
+                        <li><a href="..\index.html#section_pizza"> Pizza </a></li>
+                        <li><a href="..\index.html#section_burger"> Burgers </a></li>
+                        <li><a href="..\index.html#section_salade"> Salade </a></li>
+                        <li><a href="..\contact\contact.html"> Contact </a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            
+        </header>
+
+
+        <!-- MAIN -->
+
+        <main>
+
+            <div class="banniere"> <!-- SECTION BANNIERE -->
+                <img src="..\img\banniere.png" alt="">
+                <div class="centre_banniere">
+                    <h3>Food app</h3>
+                    <h1>Chez Bella <br /> chaque désir s'additionne.</h1>
+                </div>
+            </div>
+            
+            <form action="" method="get">
+
+                <section class="contact"> <!-- Section contact -->
+                    <h1>Nous contacter</h1>
+
+                        <div>
+                            <label for="name"> Nom </label>
+                            <input type="text" name="nom" placeholder=" Nom" required>
+                        </div>
+
+                        <div>
+                            <label for="first_name"> Prénom </label>
+                            <input type="text" name="prenom" placeholder=" Prénom" required>
+                        </div>
+
+                        <div>
+                            <label for="phone"> Téléphone </label>
+                            <input type="text" name="téléphone" placeholder=" Téléphone" required>
+                        </div>
+
+                        <div>
+                            <label for="mail"> Email </label>
+                            <input type="text" name="mail" placeholder=" Email" required>
+                        </div>
+
+                        <div>
+                            <label for="societe"> Société </label>
+                            <input type="text" name="societe" placeholder=" Société">
+                        </div>
+
+                        <div>
+                            <label for="fonction"> Fonction </label>
+                            <input type="text" name="fonction" placeholder=" Fonction">
+                        </div>
+
+
+                    <div class="upload"> <!-- Upload -->
+                        <input type="file" id="upload" name="upload" accept="image/png, image/jpeg">
+                    </div>
+
+
+                    <!-- Captcha -->
+                    <div class="g-recaptcha" data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"></div>
+
+                    <!--js captcha -->
+                    <script src='https://www.google.com/recaptcha/api.js'></script>
+                </section>
+            
+
+                <section class="message"> <!-- Section message -->
+
+                    <div> <!-- Div objet message -->
+                        <label for="objet"> Objet </label>
+                        <div>
+                            <select name="objet">
+                                <option value=""></option>
+                                <option value="option 1">1</option>
+                                <option value="option 2">2</option>
+                                <option value="option 3">3</option>
+                                <option value="option 4">4</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div> <!-- Div message textarea-->
+                        <label for="message"> Message </label>
+                        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                    </div>
+                </section>
+
+
+                <section class="map"> <!-- Section map -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2628.830222948082!2d2.433056315801802!3d48.78513141381594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67344bd2d57f1%3A0x2a84a845271b523a!2sAFPA!5e0!3m2!1sfr!2sfr!4v1608210513541!5m2!1sfr!2sfr" width="940" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </section>
+
+            </form>
+
+
+            <div class="button">
+                <button>
+                    Envoyer
+                </button>
+            </div>
+
+        </main>
+
+
+    </body>
+</html>

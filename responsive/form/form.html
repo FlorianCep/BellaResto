@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bella Olonje</title>
+        <link rel="stylesheet" href="style_form.css">
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+
+
+    <body>
+        
+        <!-- HEADER -->
+        <header>
+
+            <div class="flex-container navbar">
+                <img src="..\img\logo.png" alt="Logo Bella Olonje">
+
+                <!-- NAV -->
+                <nav>
+                    <ul>
+                        <li class="home"><a href="..\index.html"> Home </a></li>
+                        <li><a href="..\index.html#section_pizza"> Pizza </a></li>
+                        <li><a href="..\index.html#section_burger"> Burgers </a></li>
+                        <li><a href="..\index.html#section_salade"> Salade </a></li>
+                        <li><a href="..\contact\contact.html"> Contact </a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="banniere"> <!-- SECTION BANNIERE -->
+                <img src="..\img\banniere.png" alt="">
+                <div class="centre_banniere">
+                    <h3>Food app</h3>
+                    <h1>Chez Bella <br /> chaque désir s'additionne.</h1>
+                </div>
+            </div>
+        </header>
+
+
+
+        <!-- MAIN -->
+        <main>
+            <section class="info"> <!-- SECTION INFOS -->
+                <h2>Vos informations</h2>
+
+                <form action="" method="get">
+                    <div>
+                        <label for="name"> Nom </label>
+                        <input type="text" name="nom" placeholder="Nom" required>
+                    </div>
+
+                    <div>
+                        <label for="first_name"> Prénom </label>
+                        <input type="text" name="prenom" placeholder="Prénom" required>
+                    </div>
+
+                    <div>
+                        <label for="phone"> Téléphone </label>
+                        <input type="text" name="téléphone" placeholder="Téléphone" required>
+                    </div>
+
+                    <div>
+                        <label for="mail"> Email </label>
+                        <input type="text" name="mail" placeholder="Email" required>
+                    </div>
+                </form>
+
+            </section>
+
+            <hr>
+
+            <section class="commande"> <!-- SECTION COMMANDE -->
+                <h2>Votre commande</h2>
+
+                <h3>Pizza 4 fromages</h3>
+
+                <div class="supplements"> <!-- Suppléments -->
+                    <h3>Suppléments</h3>
+
+                    <div class="ingredients"> <!-- Div ingrédients -->
+                        <div>
+                            <label for="ingredient"> Ingrédient 1 </label>
+                            <select name="ingredient">
+                                <option value="">Fromage</option>
+                                <option value="option 1">option 1</option>
+                                <option value="option 2">option 2</option>
+                                <option value="option 3">option 3</option>
+                                <option value="option 4">option 4</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="ingredient"> Ingrédient 2 </label>
+                            <select name="ingredient">
+                                <option value="">Fromage</option>
+                                <option value="option 1">option 1</option>
+                                <option value="option 2">option 2</option>
+                                <option value="option 3">option 3</option>
+                                <option value="option 4">option 4</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="ingredient"> Ingrédient 3 </label>
+                            <select name="ingredient">
+                                <option value="">Fromage</option>
+                                <option value="option 1">option 1</option>
+                                <option value="option 2">option 2</option>
+                                <option value="option 3">option 3</option>
+                                <option value="option 4">option 4</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="ingredient"> Ingrédient 4 </label>
+                            <select name="ingredient">
+                                <option value="">Fromage</option>
+                                <option value="option 1">option 1</option>
+                                <option value="option 2">option 2</option>
+                                <option value="option 3">option 3</option>
+                                <option value="option 4">option 4</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="quantite"> <!-- Div quantité -->
+                        <div>
+                            <label for="quantite"> Quantité </label>
+                            <input type="text" name="ingredient" placeholder="1">
+                        </div>
+
+                        <div>
+                            <label for="quantite"> Quantité </label>
+                            <input type="text" name="ingredient" placeholder="1">
+                        </div>
+
+                        <div>
+                            <label for="quantite"> Quantité </label>
+                            <input type="text" name="ingredient" placeholder="1">
+                        </div>
+
+                        <div>
+                            <label for="quantite"> Quantité </label>
+                            <input type="text" name="ingredient" placeholder="1">
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="frites"> <!-- Frites -->
+                    <div>
+                        <input type="radio" value="Avec" name="frite" checked>
+                        <label for="avec"> Avec frites </label>
+                    </div>
+
+                    <div>
+                        <input type="radio" value="Sans" name="frite">
+                        <label for="sans"> Sans frites </label>
+                    </div>
+                </div>
+                
+
+
+                <div class="boissons"> <!-- Boissons -->
+                    <h3>Boissons</h3>
+
+                    <input type="checkbox" checked>
+                    <label for="coca"> Coca-Cola </label>
+                    <div>
+                        <select name="quant_boisson">
+                            <option value=""></option>
+                            <option value="option 1">1</option>
+                            <option value="option 2">2</option>
+                            <option value="option 3">3</option>
+                            <option value="option 4">4</option>
+                        </select>
+                    </div>
+                
+
+                
+                    <input type="checkbox">
+                    <label for="fanta"> Fanta </label>
+                    <div>
+                        <select name="quant_boisson">
+                            <option value=""></option>
+                            <option value="option 1">1</option>
+                            <option value="option 2">2</option>
+                            <option value="option 3">3</option>
+                            <option value="option 4">4</option>
+                        </select>
+                    </div>
+                
+
+                
+                    <input type="checkbox">
+                    <label for="eau"> Eau </label>
+                    <div>
+                        <select name="quant_boisson">
+                            <option value=""></option>
+                            <option value="option 1">1</option>
+                            <option value="option 2">2</option>
+                            <option value="option 3">3</option>
+                            <option value="option 4">4</option>
+                        </select>
+                    </div>
+                   
+                </div>
+
+
+                <div class="desserts"> <!-- Desserts -->
+                    <h3>Desserts</h3>
+                    
+                    <input type="checkbox" checked>
+                    <label for="tiramisu"> Tiramisu </label>
+                    <div>
+                        <select name="">
+                            <option value=""></option>
+                            <option value="option 1">1</option>
+                            <option value="option 2">2</option>
+                            <option value="option 3">3</option>
+                            <option value="option 4">4</option>
+                        </select>
+                    </div>
+                
+
+                
+                    <input type="checkbox">
+                    <label for="cheese"> Cheese-cake </label>
+                    <div>
+                        <select name="">
+                            <option value=""></option>
+                            <option value="option 1">1</option>
+                            <option value="option 2">2</option>
+                            <option value="option 3">3</option>
+                            <option value="option 4">4</option>
+                        </select>
+                    </div>
+                
+
+                
+                    <input type="checkbox">
+                    <label for="tarte"> Tarte aux fraises </label>
+                    <div>
+                        <select name="">
+                            <option value=""></option>
+                            <option value="option 1">1</option>
+                            <option value="option 2">2</option>
+                            <option value="option 3">3</option>
+                            <option value="option 4">4</option>
+                        </select>
+                    </div>
+                    
+                </div>
+
+            </section>
+
+            <hr>
+
+            <section class="adresse"> <!-- SECTION ADRESSE -->
+                <h2>Adresse de livraison</h2>
+
+                <form action="" method="get">
+                    <div>
+                        <label for="name"> Nom </label>
+                        <input type="text" name="nom" placeholder="Nom" required>
+                    </div>
+
+                    <div>
+                        <label for="first_name"> Prénom </label>
+                        <input type="text" name="prenom" placeholder="Prénom" required>
+                    </div>
+
+                    <div>
+                        <label for="phone"> Téléphone </label>
+                        <input type="text" name="téléphone" placeholder="Téléphone" required>
+                    </div>
+
+                    <div>
+                        <label for="mail"> Email </label>
+                        <input type="text" name="mail" placeholder="Email" required>
+                    </div>
+
+                    <div>
+                        <label for="adresse"> Adresse </label>
+                        <input type="text" name="adresse" placeholder="Adresse" required>
+                    </div>
+
+                    <div>
+                        <label for="cp"> Code Postal </label>
+                        <input type="text" name="cp" placeholder="Code Postal" required>
+                    </div>
+
+                    <div>
+                        <label for="ville"> Ville </label>
+                        <input type="text" name="ville" placeholder="Ville" required>
+                    </div>
+
+                    <div>
+                        <label for="pays"> Pays </label>
+                        <input type="text" name="pays" placeholder="Pays" required>
+                    </div>
+                </form>
+            
+            </section>
+
+            <div class="button">
+                <button>
+                    Envoyer
+                </button>
+            </div>
+
+        </main>
+    
+    </body>
+
+</html>

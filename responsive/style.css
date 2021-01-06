@@ -1,0 +1,1430 @@
+/*
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/***************    HTML TAGS    ***************
+h2 {
+    text-align: center;
+    padding-bottom: 70px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+}
+
+h4 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+button {
+    height: 68px;
+    width: 178px;
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 90px;
+}
+
+.button {
+    display:flex;
+    justify-content: flex-end;
+}
+
+hr {
+    border: 3px solid #E4E4E4;
+    width: 60%;
+    margin: 100px auto;
+}
+
+
+
+
+/***************    HEADER    ***************
+header {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.navbar {
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    padding: 50px;
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    margin-top: 45px;
+}
+
+.banniere img {
+    width: 100%;
+    height: 700px;
+}
+
+.centre_banniere {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.centre_banniere h3 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.centre_banniere h1 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+}
+
+
+
+
+/***************    SECTION PIZZA, BURGER, SALADE    ***************
+.flex-container {
+    display: flex;
+}
+
+.menu {
+    padding: 20px;
+    margin: auto;
+    border : 3px solid #FA4A0C;
+    height: 526px;
+    width: 427px;
+}
+
+.menu p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.menu img {
+    display: block;
+    margin: 0 auto;
+    width: 385px;
+    height: 215px;
+}
+
+.section_pizza, .section_burger, .section_salade {
+    margin: 50px auto 70px auto;
+}
+
+.menu img, .menu p {
+    padding: 12px;
+}
+
+
+
+
+/***************    SECTION PROBLEME    ***************
+.probleme {
+    margin: 180px 50px;
+}
+
+.probleme p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 46px;
+}
+
+
+
+
+/***************    SECTION BON APPETIT    ***************
+.appetit img {
+    width: 100%;
+}
+
+.appetit p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    color: white;
+    position: absolute;
+    bottom: 60%;
+    right: 40%;
+}
+
+.appetit {
+    position: relative;
+  }
+
+
+
+
+/***************    SECTION FOOTER    ***************
+footer {
+    width: 80%;
+    align-items:center;
+    margin: 0 auto 50px auto;
+    justify-content: space-between;
+}
+
+footer div {
+    width: 171px;
+    height: 41px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+footer p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+
+*/
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+/***************    MEDIA QUERIES    ***************/
+/* Smartphones */
+@media only screen and (max-device-width : 480px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    /***************    HTML TAGS    ***************/
+    h2 {
+        text-align: center;
+        padding-bottom: 70px;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 36px;
+    }
+
+    h4 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+
+    .button button {
+        height: 68px;
+        width: 178px;
+        background: #FA4A0C;
+        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        border: none;
+        border-radius: 30px;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 90px;
+    }
+
+    .button {
+        display:flex;
+        justify-content: flex-end;
+    }
+
+    hr {
+        border: 3px solid #E4E4E4;
+        width: 60%;
+        margin: 100px auto;
+    }
+
+    input:focus {
+        outline: 0;
+    }
+
+
+
+
+    /***************    HEADER    ***************/
+    header {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+    .vrainav {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .banniere img {
+        width: 100%;
+        height: 700px;
+    }
+
+    .centre_banniere {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .centre_banniere h3 {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .centre_banniere h1 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 58px;
+        line-height: 80px;
+    }
+
+    .home a {
+        color: #FA4A0C;
+    }
+    .home a:visited {
+        color: #FA4A0C;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    nav a:visited {
+        color: black;
+    }
+
+
+
+
+    /***************    SECTION PIZZA, BURGER, SALADE    ***************/
+    .menu {
+        padding: 20px;
+        border : 3px solid #FA4A0C;
+        height: 250px;
+        display: flex;
+    }
+
+    .menu p {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 36px;
+        margin-top: 60px;
+    }
+
+    .menu p:nth-child(3) {
+        margin: 85px 20px;
+    }
+
+    .menu img {
+        display: block;
+        margin: 0 auto;
+        width: 385px;
+        height: 215px;
+    }
+
+    .section_pizza, .section_burger, .section_salade {
+        margin: 50px auto 70px auto;
+    }
+
+    .menu img, .menu p {
+        padding: 12px;
+    }
+
+
+
+
+    /***************    SECTION PROBLEME    ***************/
+    .probleme {
+        margin: 180px 50px;
+    }
+
+    .probleme p {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 46px;
+    }
+
+
+
+
+    /***************    SECTION BON APPETIT    ***************/
+    .appetit img {
+        width: 100%;
+    }
+
+    .appetit p {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        color: white;
+        position: absolute;
+        bottom: 60%;
+        right: 40%;
+    }
+
+    .appetit {
+        position: relative;
+    }
+
+
+
+
+    /***************    SECTION FOOTER    ***************/
+    footer {
+        width: 80%;
+        align-items:center;
+        margin: 0 auto 50px auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer div {
+        width: 171px;
+        height: 41px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    footer p {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+/* Tablettes */
+@media only screen and (min-device-width : 481px) and (max-device-width : 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    /***************    HTML TAGS    ***************/
+    h2 {
+        text-align: center;
+        padding-bottom: 70px;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 36px;
+    }
+
+    h4 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+
+    button {
+        height: 68px;
+        width: 178px;
+        background: #FA4A0C;
+        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        border: none;
+        border-radius: 30px;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 90px;
+    }
+
+    .button {
+        display:flex;
+        justify-content: flex-end;
+    }
+
+    hr {
+        border: 3px solid #E4E4E4;
+        width: 60%;
+        margin: 100px auto;
+    }
+
+
+
+
+    /***************    HEADER    ***************/
+    header {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    nav li {
+        display: inline;
+        padding: 40px;
+    }
+
+    .navbar {
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav {
+        margin-top: 45px;
+    }
+
+    .banniere img {
+        width: 100%;
+        height: 700px;
+    }
+
+    .centre_banniere {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .centre_banniere h3 {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .centre_banniere h1 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 58px;
+        line-height: 80px;
+    }
+
+    .home a {
+        color: #FA4A0C;
+    }
+    .home a:visited {
+        color: #FA4A0C;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    nav a:visited {
+        color: black;
+    }
+
+
+
+
+    /***************    SECTION PIZZA, BURGER, SALADE    ***************/
+    .flex-container {
+        display: flex;
+    }
+
+    .menu {
+        padding: 20px;
+        margin: auto;
+        border : 3px solid #FA4A0C;
+        height: 526px;
+        width: 427px;
+    }
+
+    .menu p {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .menu img {
+        display: block;
+        margin: 0 auto;
+        width: 385px;
+        height: 215px;
+    }
+
+    .section_pizza, .section_burger, .section_salade {
+        margin: 50px auto 70px auto;
+    }
+
+    .menu img, .menu p {
+        padding: 12px;
+    }
+
+
+
+
+    /***************    SECTION PROBLEME    ***************/
+    .probleme {
+        margin: 180px 50px;
+    }
+
+    .probleme p {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 46px;
+    }
+
+
+
+
+    /***************    SECTION BON APPETIT    ***************/
+    .appetit img {
+        width: 100%;
+    }
+
+    .appetit p {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        color: white;
+        position: absolute;
+        bottom: 60%;
+        right: 40%;
+    }
+
+    .appetit {
+        position: relative;
+    }
+
+
+
+
+    /***************    SECTION FOOTER    ***************/
+    footer {
+        width: 80%;
+        align-items:center;
+        margin: 0 auto 50px auto;
+        justify-content: space-between;
+    }
+
+    footer div {
+        width: 171px;
+        height: 41px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    footer p {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+/* PC portable / petits écrans */
+@media only screen and (min-device-width : 769px) and (max-device-width : 1024px) {
+    /***************    HTML TAGS    ***************/
+    h2 {
+        text-align: center;
+        padding-bottom: 70px;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 36px;
+    }
+
+    h4 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+
+    button {
+        height: 68px;
+        width: 178px;
+        background: #FA4A0C;
+        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        border: none;
+        border-radius: 30px;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 90px;
+    }
+
+    .button {
+        display:flex;
+        justify-content: flex-end;
+    }
+
+    hr {
+        border: 3px solid #E4E4E4;
+        width: 60%;
+        margin: 100px auto;
+    }
+
+
+
+
+    /***************    HEADER    ***************/
+    header {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    nav li {
+        display: inline;
+        padding: 40px;
+    }
+
+    .navbar {
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav {
+        margin-top: 45px;
+    }
+
+    .banniere img {
+        width: 100%;
+        height: 700px;
+    }
+
+    .centre_banniere {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .centre_banniere h3 {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .centre_banniere h1 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 58px;
+        line-height: 80px;
+    }
+
+    .home a {
+        color: #FA4A0C;
+    }
+    .home a:visited {
+        color: #FA4A0C;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    nav a:visited {
+        color: black;
+    }
+
+
+
+
+    /***************    SECTION PIZZA, BURGER, SALADE    ***************/
+    .flex-container {
+        display: flex;
+    }
+
+    .menu {
+        padding: 20px;
+        margin: auto;
+        border : 3px solid #FA4A0C;
+        height: 450px;
+        width: 230px;
+    }
+
+    .menu p {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .menu img {
+        display: block;
+        margin: 0 auto;
+        width: 210px;
+        height: 115px;
+    }
+
+    .section_pizza, .section_burger, .section_salade {
+        margin: 50px auto 70px auto;
+    }
+
+    .menu img, .menu p {
+        padding: 12px;
+    }
+
+
+
+
+    /***************    SECTION PROBLEME    ***************/
+    .probleme {
+        margin: 180px 50px;
+    }
+
+    .probleme p {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 46px;
+    }
+
+
+
+
+    /***************    SECTION BON APPETIT    ***************/
+    .appetit img {
+        width: 100%;
+    }
+
+    .appetit p {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        color: white;
+        position: absolute;
+        bottom: 60%;
+        right: 40%;
+    }
+
+    .appetit {
+        position: relative;
+    }
+
+
+
+
+    /***************    SECTION FOOTER    ***************/
+    footer {
+        width: 80%;
+        align-items:center;
+        margin: 0 auto 50px auto;
+        justify-content: space-between;
+    }
+
+    footer div {
+        width: 171px;
+        height: 41px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    footer p {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+
+
+
+
+
+
+/* Desktops */
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1200px) {
+    /***************    HTML TAGS    ***************/
+    h2 {
+        text-align: center;
+        padding-bottom: 70px;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 36px;
+    }
+
+    h4 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+
+    button {
+        height: 68px;
+        width: 178px;
+        background: #FA4A0C;
+        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        border: none;
+        border-radius: 30px;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 90px;
+    }
+
+    .button {
+        display:flex;
+        justify-content: flex-end;
+    }
+
+    hr {
+        border: 3px solid #E4E4E4;
+        width: 60%;
+        margin: 100px auto;
+    }
+
+
+
+
+    /***************    HEADER    ***************/
+    header {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    nav li {
+        display: inline;
+        padding: 50px;
+    }
+
+    .navbar {
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav {
+        margin-top: 45px;
+    }
+
+    .banniere img {
+        width: 100%;
+        height: 700px;
+    }
+
+    .centre_banniere {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .centre_banniere h3 {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .centre_banniere h1 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 58px;
+        line-height: 80px;
+    }
+
+    .home a {
+        color: #FA4A0C;
+    }
+    .home a:visited {
+        color: #FA4A0C;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    nav a:visited {
+        color: black;
+    }
+
+
+
+
+    /***************    SECTION PIZZA, BURGER, SALADE    ***************/
+    .flex-container {
+        display: flex;
+    }
+
+    .menu {
+        padding: 20px;
+        margin: auto;
+        border : 3px solid #FA4A0C;
+        height: 526px;
+        width: 300px;
+    }
+
+    .menu p {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .menu img {
+        display: block;
+        margin: 0 auto;
+        width: 275px;
+        height: 175px;
+    }
+
+    .section_pizza, .section_burger, .section_salade {
+        margin: 50px auto 70px auto;
+    }
+
+    .menu img, .menu p {
+        padding: 12px;
+    }
+
+
+
+
+    /***************    SECTION PROBLEME    ***************/
+    .probleme {
+        margin: 180px 50px;
+    }
+
+    .probleme p {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 46px;
+    }
+
+
+
+
+    /***************    SECTION BON APPETIT    ***************/
+    .appetit img {
+        width: 100%;
+    }
+
+    .appetit p {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        color: white;
+        position: absolute;
+        bottom: 60%;
+        right: 40%;
+    }
+
+    .appetit {
+        position: relative;
+      }
+
+
+
+
+    /***************    SECTION FOOTER    ***************/
+    footer {
+        width: 80%;
+        align-items:center;
+        margin: 0 auto 50px auto;
+        justify-content: space-between;
+    }
+
+    footer div {
+        width: 171px;
+        height: 41px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    footer p {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+/* TV / écrans larges */
+@media only screen and (min-device-width : 1201px) {
+    /***************    HTML TAGS    ***************/
+    h2 {
+        text-align: center;
+        padding-bottom: 70px;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 36px;
+    }
+
+    h4 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+
+    button {
+        height: 68px;
+        width: 178px;
+        background: #FA4A0C;
+        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        border: none;
+        border-radius: 30px;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 90px;
+    }
+
+    .button {
+        display:flex;
+        justify-content: flex-end;
+    }
+
+    hr {
+        border: 3px solid #E4E4E4;
+        width: 60%;
+        margin: 100px auto;
+    }
+
+
+
+
+    /***************    HEADER    ***************/
+    header {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    nav li {
+        display: inline;
+        padding: 50px;
+    }
+
+    .navbar {
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav {
+        margin-top: 45px;
+    }
+
+    .banniere img {
+        width: 100%;
+        height: 700px;
+    }
+
+    .centre_banniere {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .centre_banniere h3 {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .centre_banniere h1 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 58px;
+        line-height: 80px;
+    }
+
+    .home a {
+        color: #FA4A0C;
+    }
+    .home a:visited {
+        color: #FA4A0C;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    nav a:visited {
+        color: black;
+    }
+
+
+
+
+    /***************    SECTION PIZZA, BURGER, SALADE    ***************/
+    .flex-container {
+        display: flex;
+    }
+
+    .menu {
+        padding: 20px;
+        margin: auto;
+        border : 3px solid #FA4A0C;
+        height: 526px;
+        width: 427px;
+    }
+
+    .menu p {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .menu img {
+        display: block;
+        margin: 0 auto;
+        width: 385px;
+        height: 215px;
+    }
+
+    .section_pizza, .section_burger, .section_salade {
+        margin: 50px auto 70px auto;
+    }
+
+    .menu img, .menu p {
+        padding: 12px;
+    }
+
+
+
+
+    /***************    SECTION PROBLEME    ***************/
+    .probleme {
+        margin: 180px 50px;
+    }
+
+    .probleme p {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 46px;
+    }
+
+
+
+
+    /***************    SECTION BON APPETIT    ***************/
+    .appetit img {
+        width: 100%;
+    }
+
+    .appetit p {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        color: white;
+        position: absolute;
+        bottom: 60%;
+        right: 40%;
+    }
+
+    .appetit {
+        position: relative;
+    }
+
+
+
+
+    /***************    SECTION FOOTER    ***************/
+    footer {
+        width: 80%;
+        align-items:center;
+        margin: 0 auto 50px auto;
+        justify-content: space-between;
+    }
+
+    footer div {
+        width: 171px;
+        height: 41px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    footer p {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
