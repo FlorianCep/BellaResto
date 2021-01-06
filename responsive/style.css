@@ -499,7 +499,7 @@ footer p {
         margin-bottom: 15px;
     }
 
-    button {
+    .button button {
         height: 68px;
         width: 178px;
         background: #FA4A0C;
@@ -537,24 +537,14 @@ footer p {
         font-size: 16px;
         line-height: 28px;
     }
-
-    .navbar {
-        display: flex;
-    }
-
-    nav li {
-        display: inline;
-        padding: 40px;
+    
+    .vrainav {
+        display: none;
     }
 
     .navbar {
-        padding: 20px;
         display: flex;
         justify-content: space-around;
-    }
-
-    nav {
-        margin-top: 45px;
     }
 
     .banniere img {
@@ -564,7 +554,7 @@ footer p {
 
     .centre_banniere {
         position: absolute;
-        top: 35%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
@@ -739,7 +729,7 @@ footer p {
         margin-bottom: 15px;
     }
 
-    button {
+    .button button {
         height: 68px;
         width: 178px;
         background: #FA4A0C;
@@ -776,6 +766,10 @@ footer p {
         font-weight: 600;
         font-size: 16px;
         line-height: 28px;
+    }
+
+    .bootnav {
+        display: none;
     }
 
     .navbar {
@@ -1017,6 +1011,10 @@ footer p {
         line-height: 28px;
     }
 
+    .bootnav {
+        display: none;
+    }
+
     .navbar {
         display: flex;
     }
@@ -1255,6 +1253,10 @@ footer p {
         font-weight: 600;
         font-size: 16px;
         line-height: 28px;
+    }
+
+    .bootnav {
+        display: none;
     }
 
     .navbar {
